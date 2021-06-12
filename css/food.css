@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.w {
+  width: 17.325rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 5.33333333vw;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  color: #333;
+}
+.top-bar {
+  display: block;
+  height: 3.75rem;
+  background-color: #90704D;
+}
+.top-bar .logo {
+  float: left;
+  width: 6.9rem;
+  height: 3.75rem;
+}
+.top-bar .logo a {
+  display: block;
+}
+.top-bar .logo a p {
+  padding-left: 0.75rem;
+  font-size: 1.35rem;
+  line-height: 3.75rem;
+  color: #fff;
+}
+.top-bar .menu {
+  float: right;
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.top-bar .menu a {
+  width: 3.75rem;
+  height: 3.75rem;
+  display: block;
+}
+.top-bar .menu a img {
+  display: block;
+  margin: 1.25rem;
+  height: 1.25rem;
+}
+.banner img {
+  width: 100%;
+}
+.directory {
+  display: block;
+  border-bottom: solid #e6e6e6 1px;
+}
+.directory .dire {
+  padding: 0 0.625rem;
+  margin: 0 auto;
+}
+.directory .dire p {
+  color: #999;
+}
+.directory .dire p img {
+  padding: 25px 10px 25px 0;
+  vertical-align: middle;
+}
+.directory .dire p a {
+  color: inherit;
+}
+.directory .dire p span {
+  color: #90704D;
+}
+/*# sourceMappingURL=./food.css.map */

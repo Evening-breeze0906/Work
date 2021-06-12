@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+@total-width:750;
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+.w{
+    width: (693rem/40);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+// 设置根元素
+body{
+    font-size: (100vw/@total-width * 40);
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1;
+    color:#333;
+    // background-color: #f0efed;
+}
+.top-bar{
+    display: block;
+    height: (150rem/40);
+    background-color: #90704D;
+    .logo{
+        float: left;
+        width: (276rem/40);
+        height: (150rem/40);
+        a{
+            display: block;
+            p{
+                padding-left: (30rem/40);
+                font-size: (54rem/40);
+                line-height: (150rem/40);
+                color: #fff;
+            }
+        }
+    }
+    .menu{
+        float: right;
+        width: (150rem/40);
+        height: (150rem/40);
+        a{
+            width: (150rem/40);
+            height: (150rem/40);
+            display: block;
+            img{
+                display: block;
+                margin: (50rem/40);
+                height: (50rem/40);
+            }
+        }
+    }
+}
+
+//设置banner
+.banner{
+    img{
+        width: 100%;
+    }
+}
+
+// 设置目录指引
+.directory{
+    display: block;
+    border-bottom: solid #e6e6e6 1px;
+    .dire{
+        padding:0 (25rem/40);
+        margin:0 auto;
+        p{
+            color: #999;
+            img{
+                padding:25px 10px 25px 0;
+                vertical-align: middle;
+            }
+            a{
+                color:inherit;
+            }
+            span{
+                color:#90704D;
+            }
+        }
+    }
+}
