@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>订单页</title>
+    <link rel="stylesheet" href="./fa/css/all.min.css">
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+    <!-- 创建头部容器 -->
+    <header class="top-bar">
+        <div class="back clearfix">
+            <a class="back_a" href="#">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                返回
+            </a>
+        </div>
+
+        <div class="logo clearfix">
+            <a class="logo_a" href="#">
+                填写个人信息
+            </a>
+        </div>
+        <div class="user clearfix">
+            <a class="user_a" href="#">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+    <div class="tip">
+            请填写您的用餐信息
+    </div>
+
+    <div class="main-wrapper">
+        <div class="main">
+            <form action="#">
+                <div class="form_li">
+                    <p>手机号码：</p>
+                    <input class="a" type="text" value="请输入您的手机号码">
+                </div>
+                <div class="form_li">
+                    <p>用户姓名：</p>
+                    <input class="b" type="text" value="请输入您的姓名">
+                </div>
+                <div class="form_li">
+                    <p>就餐时间：</p>
+                    <input class="c" type="text" value="        日">
+                    <input class="c" type="text" value="       时">
+                    <input class="c" type="text" value="       分">
+                </div>
+                <div class="form_li">
+                    <p>房间单号：</p>
+                    <input class="d" type="text">
+                </div>
+                <div class="form_li">
+                    <p>备注说明：</p>
+                    <input class="e" type="text">
+                </div>
+
+                <button class="btn_s" type="submit">确认点菜</button>
+                <button class="btn_r" type="reset">
+                    <i class="fa fa-undo" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
