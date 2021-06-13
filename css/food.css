@@ -37,7 +37,7 @@ body {
 }
 .top-bar .logo a p {
   padding-left: 0.75rem;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   line-height: 3.75rem;
   color: #fff;
 }
@@ -75,6 +75,7 @@ body {
   vertical-align: middle;
 }
 .directory .dire p a {
+  font-size: 0.8rem;
   color: inherit;
 }
 .directory .dire p span {

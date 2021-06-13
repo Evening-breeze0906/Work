@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@total-width:750;
+
+.w{
+    width: (693rem/40);
+    margin: 0 auto;
+}
+.t{
+    background: url(../img/food/2.jpg) center top;
+}
+.t2{
+    background: url(../img/food/4.jpg) center top;
+}
+.t3{
+    background: url(../img/food/3.jpg);
+}
+.t4{
+    background: url(../img/food/10.jpg) center top;
+}
+.t5{
+    background: url(../img/food/13.jpg) center;
+}
+a{
+    text-decoration: none;
+}
+// 设置根元素
+html{
+    // 设置rem的比值
+    font-size: (100vw/@total-width * 40);
+    background-color: #eff0f4;
+}
+.course-list{
+    position: relative;
+}
+.item-list{
+    width: (720rem/40);
+    margin-top:(20rem/40);
+    display: flex;
+    overflow: auto;
+    .first{
+        height:(300rem/40);
+        margin-right: (20rem/40);
+        border-radius: 10px;
+        .fi{
+            width: (320rem/40);
+            font-size: (40rem/40);
+            color:#EC888F;
+            text-align: center;
+            background-color: rgba(254,254,254,.20);
+            .fi_t{
+            margin-top: (70rem/40);
+            }
+        }
+    }
+}
+// 设置课程列表的项
+.item{
+    flex:none;
+    box-sizing: border-box;
+    width: (340rem/40);
+    height: (310rem/40);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    border-radius: 7px;
+    display:flex;
+    flex-flow: column;
+    margin-right: (15rem/40);
+    img{
+        width: 100%;
+        height: (220rem/40);
+        vertical-align: top;
+    }
+    .text{
+        display: flex;
+        .food-title,.count{
+            width: 50%;
+            height: (50rem/40);
+            font-size:(29rem/40);
+            color:#24253d;
+        }
+        .food-title{
+            margin: (20rem/40);
+            color: #EC888F;
+        }
+        .count{
+            font-size: (15rem/40);
+            margin-top: (25rem/40);
+            img{
+                margin-top: (19rem/40);
+                width: (35rem/40);
+                height: (35rem/40);
+            }
+        }
+    }
+}
+
+.shop{
+    width: (100rem/40);
+    height: (100rem/40);
+    position: fixed;
+    z-index: 9999;
+    right:(40rem/40);
+    top: (1100rem/40);
+    border-radius: 50%;
+    background-color: rgba(254,254,254,.85);
+    border:1px solid #CCCCCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    a{
+        display: block;
+        img{
+            vertical-align:middle;
+            margin-left: (20rem/40);
+        }
+        p{
+            font-size: (15rem/40);
+            text-align: center;
+            color:#EC888F;
+        }
+    }
+    
+}
+.point{
+    width: (25rem/40);
+    height: (25rem/40);
+    position: fixed;
+    z-index: 9999;
+    right:(42rem/40);
+    top: (1103rem/40);
+    font-size: (15rem/40);
+    background-color:#ff545f;
+    box-shadow: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    color:rgb(29, 27, 27);
+    text-align: center;
+}
