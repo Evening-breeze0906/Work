@@ -147,6 +147,8 @@ body {
   margin-top: 6.25rem;
   background-color: #2EC367;
   border: none;
+}
+.main-wrapper .main form .btn_s a {
   color: #fff;
 }
 .main-wrapper .main form .btn_r {
